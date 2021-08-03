@@ -6,7 +6,7 @@ hero:
   occupations:
     - 'Fotografa Profesional'
     - 'Especialista en Turismo'
-#    - 'Private Detective'
+    - 'Barista'
 
   # hero background image
   bg_image: 'images/foto1.png'
@@ -16,8 +16,8 @@ hero:
 ########################### About ##################################
 about:
   enable: true
-  image: 'images/profile.jpg'
-  title: 'THIS IS ME'
+  image: 'images/gisele.jpeg'
+  title: 'Esta soy yo'
   content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
   button:
     enable: true
@@ -85,15 +85,19 @@ portfolio:
   title: 'MY WORK'
   portfolio_list:
     - name: Hugo
-      image: 'images/portfolio/hugo.png'
+      image: 'images/portfolio/desierto.jpeg'
       url: https://gohugo.io
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 
     - name: Hugo Themes
-      image: 'images/portfolio/hugothemes.png'
+      image: 'images/portfolio/elefante.jpeg'
       url: https://gohugo.io
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 
     - name: Just A Design
-      image: 'images/portfolio/design.png'
+      image: 'images/portfolio/niña.jpeg'
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+#      - name: Just A Design
+#      image: 'images/portfolio/tongariro.jpeg'
+#      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.

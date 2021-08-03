@@ -1,8 +1,8 @@
 ######################## default configuration ####################
-baseURL = "https://example.com"
-title = "Port Hugo"
+baseURL = ""
+relativeURLs = "True"
+title = "Gisele Sanchez"
 theme = "port-hugo"
-#publishDir = "docs"
 
 ############################# Plugins ##############################
 
