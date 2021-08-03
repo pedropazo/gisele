@@ -2,7 +2,7 @@
 baseURL = "https://example.com"
 title = "Port Hugo"
 theme = "port-hugo"
-publishDir = "docs"
+#publishDir = "docs"
 
 ############################# Plugins ##############################
 
