@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Gisele Sanchez</title>
+    <title>Categories on Gisele Fotografa</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Gisele Sanchez</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Categories on Gisele Fotografa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
+    <lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>diseño</title>
+      <link>/categories/dise%C3%B1o/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>/categories/dise%C3%B1o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>naturaleza</title>
+      <link>/categories/naturaleza/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>/categories/naturaleza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paisajes</title>
+      <link>/categories/paisajes/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>/categories/paisajes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrato</title>
+      <link>/categories/retrato/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>/categories/retrato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>viajes</title>
+      <link>/categories/viajes/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>/categories/viajes/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
