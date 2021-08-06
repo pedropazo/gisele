@@ -63,9 +63,9 @@ link = "plugins/owl-carousel/owl.carousel.min.js"
 
 #################### default parameters ################################
 [params]
-favicon = "images/gisele/fabrica.png"
-logo_light = "images/gisele/fabrica.png"
-logo_dark = "images/gisele/fabrica.png"
+favicon = "images/gisele/logo.png"
+logo_light = "images/gisele/logo_n.png"
+#logo_dark = "images/gisele/logo_n.png"
 logo_width = "150px"
 # Meta data
 description = "This is meta description"
@@ -73,7 +73,7 @@ author = "somrat"
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
   
 ############################# social site ########################
@@ -87,7 +87,7 @@ link = "https://www.facebook.com/fabricadeluz"
 
 [[params.social]]
 icon = "fab fa-instagram"
-link = "https://www.instagram.com/giselemoya"
+link = "https://www.instagram.com/giselemoyafoto"
 
 [[params.social]]
 icon = "fab fa-whatsapp"
@@ -153,7 +153,7 @@ weight = 6
 #weight = 7
 
 
-################################### French language #####################################
+################################### Spanish language #####################################
 [Languages.fr]
 languageName = "Fr"
 languageCode = "fr-fr"
@@ -201,3 +201,4 @@ name = "Contact"
 pre = "#"
 url = "contact"
 weight = 6
+

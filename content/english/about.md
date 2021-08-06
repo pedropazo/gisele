@@ -1,6 +1,6 @@
 ---
 title : "MAS SOBRE <br> MÍ"
-image : "images/gisele/gisele.jpeg"
+image : "images/gisele/perfil.png"
 # button
 button:
   enable : false
@@ -9,7 +9,7 @@ button:
 
 ########################### Experience ##############################
 experience:
-  enable : true
+  enable : false
   title : "EXPERIENCIA"
   experience_list:
     # experience item loop

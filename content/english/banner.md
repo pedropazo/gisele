@@ -1,20 +1,20 @@
 ---
-title : "Hola! Soy Gisele"
+title : "Gisele Moya"
 # full screen navigation
 first_name : "Gisele"
-last_name : "Sanchez"
-bg_image : "images/backgrounds/full-nav-bg.jpg"
+last_name : "Moya"
+bg_image : "images/gisele/gisele2.png"
 # animated text loop
 occupations:
-- "Fotografa Profesional"
-- "Agente de Turismo"
-- "Barista"
+- "Fotografa"
+#- "Agente de Viajes"
+
 
 # slider background image loop
 slider_images:
-- "images/gisele/foto1.png"
-- "images/gisele/desierto.jpeg"
-- "images/gisele/tongariro.jpeg"
+- "images/gisele/breda.png"
+#- "images/gisele/desierto.jpeg"
+#- "images/gisele/tongariro.jpeg"
 
 # button
 button:

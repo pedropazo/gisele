@@ -4,9 +4,9 @@
 {{ with .GetPage "banner" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
-  <div class="logo">
+  <!--<div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
-  </div>
+  </div>-->
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
@@ -129,9 +129,9 @@
             <span></span>
           </div>
         </a>
-        <div class="mobile-menu-logo"><a href="{{site.BaseURL | relLangURL }}"><img class="img-fluid"
+        <!--<div class="mobile-menu-logo"><a href="{{site.BaseURL | relLangURL }}"><img class="img-fluid"
               src="{{ site.Params.logo_dark | absURL }}" alt="{{ site.Title }}"></a>
-        </div>
+        </div>-->
         <div class="menu-slider">
           <nav>
             <ul class="mobile-menu-list">
@@ -328,11 +328,11 @@
                  <img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}">
               </a>
               <div class="item-caption">
-                <h2 class="mt-2"><a class="text-white" href="{{.Permalink}}">{{ .Title | markdownify }}</a></h2>
+                <h2 class="mt-2"><a class="text-white" >{{ .Title | markdownify }}</a></h2> <!--href="{{.Permalink}}"-->
                 {{ range .Params.categories }}
                 <p class="mb-0 text-light">{{ . | title }}</p>
                 {{ end }}
-                <div class="item-created text-light">{{ .PublishDate.Format "02 Jan, 06" }}</div>
+                <!--<div class="item-created text-light">{{ .PublishDate.Format "02 Jan, 06" }}</div>-->
               </div>
             </div>
           </div>
