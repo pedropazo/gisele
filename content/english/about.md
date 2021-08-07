@@ -1,5 +1,5 @@
 ---
-title : "MAS SOBRE <br> MÍ"
+title : "SOBRE MÍ"
 image : "images/gisele/perfil.png"
 # button
 button:

@@ -1,7 +1,7 @@
 ---
-title: "Desierto"
+title: "Foto 6"
 date: 2020-05-12T12:14:34+06:00
-image: "images/gisele/desierto.jpeg"
+image: "images/gisele/portafolio/foto6.jpeg"
 categories: ["diseño"]
 description: "This is meta description."
 draft: false

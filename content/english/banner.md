@@ -12,7 +12,7 @@ occupations:
 
 # slider background image loop
 slider_images:
-- "images/gisele/breda.png"
+- "images/gisele/breda.jpeg"
 #- "images/gisele/desierto.jpeg"
 #- "images/gisele/tongariro.jpeg"
 

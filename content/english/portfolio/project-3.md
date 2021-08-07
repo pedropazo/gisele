@@ -1,7 +1,7 @@
 ---
-title: "Elefante"
+title: "Foto 3"
 date: 2020-05-12T12:14:34+06:00
-image: "images/gisele/elefante.jpeg"
+image: "images/gisele/portafolio/foto3.jpeg"
 categories: ["viajes"]
 description: "This is meta description."
 draft: false

@@ -1,5 +1,5 @@
 ---
-title : "TESTIMONIALS"
+title : "TESTIMONIOS"
 testimonial_slider:
 
 # slider item loop
@@ -7,9 +7,10 @@ testimonial_slider:
   image : "images/gisele/pedro.jpeg"
   designation : "CEO Pedro Factory"
   content : "La mejor fotografa del mundo."
+  
 # slider item loop
 - name : "Edder River"
-  image : "images/gisele/eder2.jpeg"
+  image : "images/gisele/eder.jpeg"
   designation : "COMEDIANTE"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad, omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
   

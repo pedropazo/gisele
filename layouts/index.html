@@ -7,12 +7,12 @@
   <!--<div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
   </div>-->
-  <div class="slider-prev-button slider-button">
+  <!--<div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
   <div class="slider-next-button slider-button">
     <i class="fa fa-angle-right"></i>
-  </div>
+  </div>-->
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .Params.slider_images }}
     <div class="slider"><img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
@@ -193,7 +193,7 @@
         </div>
       </div>
       {{ with .Params.image }}
-      <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-lg-6 col-sm-6 col-9 wow fadeInUp" data-wow-duration="1.5s"> <!--about-me-images-->
         <img class="img-fluid" src="{{ . | absURL }}" alt="about-me">
       </div>
       {{ end }}
@@ -244,53 +244,6 @@
 {{ end }}
 <!-- End About Me -->
 
-<!-- Start Services -->
-{{ with .GetPage "service" }}
-<style>{{.Params.custom_css | safeCSS}}</style>
-<section class="services {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="service">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto col-sm-10">
-        <div class="wow fadeInUp" data-wow-duration="1.5s">
-          <div class="services-heading">
-            <div class="bar"></div>
-            <h1>{{ .Title | markdownify }}</h1>
-          </div>
-          <div class="row">
-            {{ range .Params.service_list }}
-            <div class="col-lg-4 col-sm-4 col-12 services-icon">
-              <div class="service-img">
-                <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name | markdownify }}">
-              </div>
-              <div class="service-label">{{ .name | markdownify }}</div>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- End Services -->
-
-<!-- call to action -->
-{{ with .GetPage "call-to-action" }}
-<style>{{.Params.custom_css | safeCSS}}</style>
-<section id="cta" class="need-service overlay section-sm wow fadeInUp {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s" style="background-image: url('{{ .Params.bg_image | absURL }}');">
-  <div class="container position-relative z-index-9">
-    <h1>{{ .Title | markdownify }}</h1>
-    {{ with .Content }}<div class="text-white content">{{ . | markdownify }}</div> {{ end }}
-    {{ with .Params.button }}
-    {{ if .enable }}
-    <a href="{{ .link | absURL}}">{{ .label }}</a>
-    {{ end }}
-    {{ end }}
-  </div>
-</section>
-{{ end }}
-<!-- end call to action -->
-
 <!-- Start Portfolio -->
 {{ with .GetPage "portfolio"}}
 <style>{{.Params.custom_css | safeCSS}}</style>
@@ -299,7 +252,7 @@
     <div class="row portfolio-holder text-left">
       <div class="col-12 text-center">
         <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ .Title }}</h1>
-        <div class="filtering wow fadeInUp" data-wow-duration="1.5s">
+        <!--<div class="filtering wow fadeInUp" data-wow-duration="1.5s">
           <div class="btn-group btn-group-toggle portfolio-navigation" data-toggle="buttons">
             <label class="btn btn-sm btn-primary active hvr-sweep-to-right">
               <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
@@ -316,31 +269,31 @@
             </label>
             {{ end }}
           </div>
-        </div>
+        </div>-->
       </div>
       <div class="col-lg-10 col-md-10 col-sm-10 col-10 mx-auto">
         <div class="row filtr-wrapper wow fadeInUp list" data-wow-duration="1.5s">
-          {{ range first 6 .Data.Pages }}
+          {{ range first 12 .Data.Pages }}
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item"
             data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
-            <div class="item-holder">
-              <a class="image-pop" href="{{ .Params.image | absURL }}" title="{{ .Title | markdownify }}">
+            <!--<div class="item-holder">-->
+              <a class="image-pop" href="{{ .Params.image | absURL }}"><!-- title="{{ .Title | markdownify }}"-->
                  <img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}">
               </a>
-              <div class="item-caption">
-                <h2 class="mt-2"><a class="text-white" >{{ .Title | markdownify }}</a></h2> <!--href="{{.Permalink}}"-->
+              <!--<div class="item-caption">
+                <h2 class="mt-2"><a class="text-white" href="{{.Permalink}}">{{ .Title | markdownify }}</a></h2>
                 {{ range .Params.categories }}
                 <p class="mb-0 text-light">{{ . | title }}</p>
                 {{ end }}
-                <!--<div class="item-created text-light">{{ .PublishDate.Format "02 Jan, 06" }}</div>-->
-              </div>
-            </div>
+                <div class="item-created text-light">{{ .PublishDate.Format "02 Jan, 06" }}</div>
+              </div>-->
+            <!--</div>-->
           </div>
           {{ end }}
         </div>
-        {{ if gt (len .Data.Pages) 6}}
+        {{ if gt (len .Data.Pages) 12}}
         <div class="text-center wow fadeInUp mt-4" data-wow-duration="1.5s">
-          <a href="{{`portfolio` | absURL}}" class="btn btn-primary">See More</a>
+          <a href="{{`portfolio` | absURL}}" class="btn btn-primary">Ver Más</a>
         </div>
         {{ end }}
       </div>
@@ -376,31 +329,6 @@
 </section>
 {{ end }}
 <!-- End Testimonials -->
-
-<!-- funfacts -->
-{{ with .GetPage "funfacts"}}
-<style>{{.Params.custom_css | safeCSS}}</style>
-<section class="wow fadeInUp section-sm {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s">
-  <div class="container position-relative z-index-9">
-    {{ with .Title}}
-    <div class="services-heading">
-      <div class="bar"></div>
-      <h1>{{ . | markdownify }}</h1>
-    </div>
-    {{ end }}
-    <div class="fun-facts wow fadeInUp" data-wow-duration="1.5s">
-      {{ range .Params.funfacts }}
-      <div class="fun-fact-holder">
-        <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
-        <p class="fact-counter count" data-count="{{ .count }}">0</p>
-        <p>{{ .name }}</p>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- end funfacts -->
 
 <!-- Start Contact -->
 {{ with .GetPage "contact"}}

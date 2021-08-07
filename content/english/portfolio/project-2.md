@@ -1,7 +1,7 @@
 ---
-title: "Tongariro"
+title: "Foto 2"
 date: 2020-05-12T12:14:34+06:00
-image: "images/gisele/tongariro.jpeg"
+image: "images/gisele/portafolio/foto2.jpeg"
 categories: ["paisajes","naturaleza"]
 description: "This is meta description."
 draft: false

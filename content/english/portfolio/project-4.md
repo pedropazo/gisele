@@ -1,7 +1,7 @@
 ---
-title: "Niña"
+title: "Foto 4"
 date: 2020-05-12T12:14:34+06:00
-image: "images/gisele/nina.jpeg"
+image: "images/gisele/portafolio/foto4.jpeg"
 categories: ["viajes"]
 description: "This is meta description."
 draft: false
